@@ -33,16 +33,16 @@
 
 
 // Length of inner and outer support arms. Measure arm lengths precisely.
-#define SCARA_LINKAGE_1 160.0f	// 160mm
-#define SCARA_LINKAGE_2 160.0f 	// 160mm
+#define SCARA_LINKAGE_1 91.61f	// 160mm
+#define SCARA_LINKAGE_2 114.3f 	// 160mm
 
 // SCARA tower offset (position of Tower relative to bed zero position)
 // This needs to be reasonably accurate as it defines the printbed position in the SCARA space.
-#define SCARA_OFFSET_X -245.0f 	// -245mm
-#define SCARA_OFFSET_Y 85.0f	// 85mm	
+#define SCARA_OFFSET_X 90.0f 	// -245mm
+#define SCARA_OFFSET_Y -80.0f	// 85mm	
 
-#define MANUAL_X_HOME_POS 0.0f	// Theta
-#define MANUAL_Y_HOME_POS 0.0f 	// PSI
+#define MANUAL_X_HOME_POS -105.0f	// Theta
+#define MANUAL_Y_HOME_POS 140.0f 	// PSI
 #define MANUAL_Z_HOME_POS 0.0f
 
 #define RADIANS(d) ((d)*(float)M_PI/180.0f)
