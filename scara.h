@@ -41,8 +41,8 @@
 #define SCARA_OFFSET_X 90.0f 	// -245mm
 #define SCARA_OFFSET_Y -80.0f	// 85mm	
 
-#define MANUAL_X_HOME_POS 0.0f	// Theta
-#define MANUAL_Y_HOME_POS 0.0f 	// PSI
+#define MANUAL_X_HOME_POS -105.0f	// Theta
+#define MANUAL_Y_HOME_POS 140.0f 	// PSI
 #define MANUAL_Z_HOME_POS 0.0f
 
 #define RADIANS(d) ((d)*(float)M_PI/180.0f)
